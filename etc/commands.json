@@ -1,0 +1,267 @@
+{
+	"subcommands":
+	{ 
+		"down": 
+		{ 
+			"parameter": 
+			{
+				"server":
+				{
+					"mapping": ""
+				}
+
+			,	"dns":
+				{
+					"mapping": ""
+				}
+
+			,	"back":
+				{
+					"mapping": ""
+				}
+
+			,   "sonar":
+				{
+					"mapping": ""
+				}
+
+			,   "frontend":
+				{
+					"mapping": ""
+				}
+
+			,   "default":
+				{
+					"mapping": ""
+				}				
+			}
+			
+		 
+		} 
+
+	,  "init": 
+	   { 
+	   		"parameter": 
+			{
+				"server":
+				{
+					"mapping": ""
+				}
+
+			,	"dns":
+				{
+					"mapping": ""
+				}
+
+			,	"back":
+				{
+					"mapping": ""
+				}
+
+			,   "sonar":
+				{
+					"mapping": ""
+				}
+
+			,   "frontend":
+				{
+					"mapping": ""
+				}
+
+			,   "default":
+				{
+					"mapping": ""
+				}		
+			}	    
+	   } 
+
+	,  "up": 
+	   { 
+	   		"parameter": 
+			{
+				"server":
+				{
+					"mapping": ""
+				}
+
+			,	"dns":
+				{
+					"mapping": ""
+				}
+
+			,	"back":
+				{
+					"mapping": ""
+				}
+
+			,   "sonar":
+				{
+					"mapping": ""
+				}
+
+			,   "frontend":
+				{
+					"mapping": ""
+				}
+
+			,   "default":
+				{
+					"mapping": ""
+				}		
+			}
+	   } 
+
+	,  "list": 
+	   { 
+	   		"parameter": 
+			{
+				"exec":
+				{
+					"mapping": ""
+				}
+
+			,   "default":
+				{
+					"mapping": ""
+				}				
+			}
+	   } 
+
+	,  "exec": 
+	   { 
+	   		"parameter":
+			{
+				"server":
+				{
+					"mapping": ""
+				}
+
+			,	"dns":
+				{
+					"mapping": ""
+				}
+
+			,	"back":
+				{
+					"mapping": ""
+				}
+
+			,   "sonar":
+				{
+					"mapping": ""
+				}
+
+			,   "frontend":
+				{
+					"mapping": ""
+				}
+				
+			,   "default":
+				{
+					"mapping": ""
+				}
+			}
+	   }
+
+	,  "docker": 
+	   { 
+	   		"parameter":
+		    {
+				"enable":
+				{
+					"mapping": ""
+				}
+
+			,   "disable":
+				{
+					"mapping": ""
+				}
+
+			,   "start":
+				{
+					"mapping": ""
+				}
+
+			,   "stop":
+				{
+					"mapping": ""
+				}
+
+			,   "default":
+				{
+					"mapping": ""
+				}			
+			}
+	   } 
+
+	,  "set": 
+	   { 
+	   		"parameter": 
+			{
+				"var":
+				{
+					"mapping": ""
+				}
+
+			,	"xdebug":
+				{
+					"mapping": ""
+				}
+
+			,   "default":
+				{
+					"mapping": ""
+				}				
+			}
+	   } 
+
+	
+	,  "composer": 
+	   { 
+	   		"parameter": 
+			{
+				"default":
+				{
+					"mapping": ""
+				}
+			} 
+	    
+	   } 
+
+	,  "logs": 
+	   { 
+			"parameter":
+			{
+				"server":
+				{
+					"mapping": ""
+				}
+
+			,	"dns":
+				{
+					"mapping": ""
+				}
+
+			,	"back":
+				{
+					"mapping": ""
+				}
+
+			,   "sonar":
+				{
+					"mapping": ""
+				}
+
+			,   "frontend":
+				{
+					"mapping": ""
+				}
+				
+			,   "default":
+				{
+					"mapping": ""
+				}
+			}		
+	   }
+	} 
+}

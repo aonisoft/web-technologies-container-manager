@@ -1,0 +1,14 @@
+{
+  "config" : 
+  {
+     "enviroment" :
+     {
+         "port_server" : "8118"
+     ,   "port_dns" : "1153"
+     ,   "user_id" : ""
+     ,   "timezone" : "" 
+     }
+
+  ,   "temple_github": "https://github.com/aonisoft/template-for-wtcm.git" 
+  } 
+}
