@@ -1,6 +1,6 @@
 #!/bin/bash
 
-check_jq() 
+function check_jq()
 {
     echo "Checking package jq"
     

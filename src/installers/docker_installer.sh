@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-install_docker_debian() 
+function install_docker_debian() 
 {
     sudo apt-get update
 
@@ -21,7 +21,7 @@ install_docker_debian()
 }
 
 
-install_docker_redhat() 
+function install_docker_redhat() 
 {
     local name_distro=$1
 
@@ -45,7 +45,7 @@ install_docker_redhat()
 }
 
 
-install_docker_arch() 
+function install_docker_arch() 
 {
     sudo pacman -Syu
 
