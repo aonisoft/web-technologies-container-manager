@@ -1,6 +1,14 @@
 #!/bin/bash
 
-install_podman_debian() 
+function install_podman_compose() 
+{
+    pip install --upgrade pip
+
+    pip install podman-compose
+}
+
+
+function install_podman_debian() 
 {
     . /etc/os-release
 
@@ -11,10 +19,12 @@ install_podman_debian()
     sudo apt-get update
 
     sudo apt-get -y install podman
+
+    install_podman_compose
 }
 
 
-install_podman_redhat() 
+function install_podman_redhat() 
 {
     sudo dnf -y module disable container-tools
 
@@ -23,14 +33,18 @@ install_podman_redhat()
     sudo dnf -y copr enable rhcontainerbot/container-selinux
 
     sudo dnf -y install podman
+
+    install_podman_compose
 }
 
 
-install_podman_arch() 
+function install_podman_arch() 
 {
     sudo pacman -Syu
 
     sudo pacman -S podman fuse-overlayfs
+
+    install_podman_compose
 }
 
     if [[ "$OSTYPE" == "linux-gnu"* ]]; 
